@@ -1,7 +1,7 @@
-/Users/lavanyas/Downloads/quiz/src/main/java/com/app/quiz/QuizApplication.java
-/Users/lavanyas/Downloads/quiz/src/main/java/com/app/quiz/config/WebSecurityConfig.java
-/Users/lavanyas/Downloads/quiz/src/main/java/com/app/quiz/controller/QuizController.java
-/Users/lavanyas/Downloads/quiz/src/main/java/com/app/quiz/model/Quiz.java
-/Users/lavanyas/Downloads/quiz/src/main/java/com/app/quiz/model/User.java
-/Users/lavanyas/Downloads/quiz/src/main/java/com/app/quiz/service/QuestionsService.java
-/Users/lavanyas/Downloads/quiz/src/main/java/com/app/quiz/service/QuizUserDetailsService.java
+/home/project/dhrqh-spring-intro-finalproject/quiz/src/main/java/com/app/quiz/QuizApplication.java
+/home/project/dhrqh-spring-intro-finalproject/quiz/src/main/java/com/app/quiz/config/WebSecurityConfig.java
+/home/project/dhrqh-spring-intro-finalproject/quiz/src/main/java/com/app/quiz/controller/QuizController.java
+/home/project/dhrqh-spring-intro-finalproject/quiz/src/main/java/com/app/quiz/model/Quiz.java
+/home/project/dhrqh-spring-intro-finalproject/quiz/src/main/java/com/app/quiz/model/User.java
+/home/project/dhrqh-spring-intro-finalproject/quiz/src/main/java/com/app/quiz/service/QuestionsService.java
+/home/project/dhrqh-spring-intro-finalproject/quiz/src/main/java/com/app/quiz/service/QuizUserDetailsService.java

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.app.quiz.QuizApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.180 s -- in com.app.quiz.QuizApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.880 s -- in com.app.quiz.QuizApplicationTests

@@ -31,7 +31,18 @@
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
+            box-sizing: border-box;
         }
+        
+        .registration-container select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 1em;
+        }
+
         .registration-container button {
             width: 80%;
             padding: 10px;
@@ -42,12 +53,19 @@
             cursor: pointer;
         }
         .registration-container button:hover {
-            background-color: #2d2db0;
+            background-color: #2525a0;
         }
 
-		.error {
+        .error {
             color: red;
             margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .success {
+            color: green;
+            margin-top: 10px;
+            font-size: 14px;
         }
 
     </style>
@@ -58,6 +76,9 @@
         <form th:action="@{/register}" method="post" class="form-group">
             <!-- Username -->
             <input type="text" name="username" placeholder="Username" required>
+            
+            <!-- Email -->
+            <input type="email" name="email" placeholder="Email" required>
             
             <!-- Password -->
             <input type="password" name="password" placeholder="Password" required>
@@ -72,11 +93,17 @@
             <!-- Submit Button -->
             <button type="submit">Register</button>
         </form>
+        
         <!-- Error Message -->
-		<div th:if="${param.error}" class="error">
-			Invalid username.
-		</div>
-		
+        <div th:if="${param.error}" class="error">
+            Registration failed. Username may already exist or information is invalid.
+        </div>
+        
+        <!-- Success Message (if redirected from successful registration) -->
+        <div th:if="${param.success}" class="success">
+            Registration successful! Please login.
+        </div>
+        
         <p>Already have an account? <a href="/login">Login here</a></p>
     </div>
 </body>
